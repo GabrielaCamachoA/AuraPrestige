@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <Link to={'/'}>
-        <img src="/public/home.png" className='icon' />
+        <img src="/home.png" className='icon' />
       </Link>
       <nav>
         <Link to={'/'}>Inicio</Link>

@@ -21,10 +21,10 @@ function Footer() {
             <div className="redes">
                 <h5>FOLLOW US</h5>
                 <a href="https://www.instagram.com/" target='blank'>
-                <img src="/public/ig.png" alt="" />
+                <img src="/ig.png" alt="" />
                 </a>
                 <a href="https://www.tiktok.com/login?lang=es&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Des" target='blank'>
-                <img src="/public/tiktok.png" alt="" />
+                <img src="/tiktok.png" alt="" />
                 </a>
             </div>
         </div>
