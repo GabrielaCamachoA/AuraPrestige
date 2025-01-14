@@ -1,6 +1,6 @@
 import React from 'react'
 import './inicio.css'
-import Catalogo from '../components/catalogo'
+import Catalogo from '../components/Catalogo'
 
 function Inicio() {
   return (
