@@ -1,0 +1,75 @@
+.headerImg{
+    background: url(/public/makeUp.png);
+    background-repeat: no-repeat;
+    background-position: 50% 48%;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.catalogo{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    max-width: 910px;
+}
+.headerImg h2{
+    font-size: 60px;
+    filter: drop-shadow(2px 4px 6px black);
+    color: aliceblue;
+}
+.carta img{
+    width: 260px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.carta p{
+    margin: 4px;
+}
+.carta .titulo{
+    font-weight: bold;
+    font-size: 18px;
+}
+.carta .precio{
+    font-size: 18px;
+    color: #7c583a;
+}
+
+.carta .preview {
+    display: grid;
+}
+
+.carta .preview img {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.carta .preview .hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.carta:hover .preview .hover {
+    opacity: 1;
+}
+
+.carta:hover .preview .normal {
+    opacity: 0;
+}

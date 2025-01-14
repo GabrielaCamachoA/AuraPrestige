@@ -1,0 +1,129 @@
+.contactos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 10px;
+}
+.contactos label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactos  form{
+    background-color: beige;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 10px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 60px;
+    flex-grow: 1;
+    flex-basis: 400px;
+  }
+.contactos .container-thanks{
+    background-color: beige;
+    margin-top: 20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 290px;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1pc;
+      flex-grow: 1;
+    flex-basis: 400px;
+  }
+.contactos .container-thanks h2{
+    font-size: 42px;
+    line-height: 0.9;
+    border-bottom: 1px solid;
+  }
+.contactos  .container-thanks p{
+    font-size: 24px;
+  }
+.contactos  input{
+    border: none;
+    padding: 6px;
+    border-bottom: 1px solid #333333;
+    resize: vertical;
+    max-height: 10pc;
+    border-radius: 4px;
+  }
+.contactos input[type="submit"]{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+.contactos  input[type="submit"]:hover{
+    background-color: #242323;
+    transform: scale(0.9);
+  }
+.contactos  input:focus{
+    outline: none;
+  }
+.contactos  .newContainer{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 290px;
+    border: 1px solid #a9aaab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.contactos  .datos{
+    background:  beige;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+.contactos  .newContainer h2{
+    color: #000;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+  }
+.contactos  .newContainer .nameFull{
+    overflow-wrap: anywhere;
+  }
+.contactos .newContainer p{
+    overflow-wrap: anywhere;
+    margin: 6px;
+  }
+.contactos  .newContainer hr{
+    width: 100%;
+  }
+.contactos  .newContainer button{
+    cursor: pointer;
+    font-size: 26px;
+    margin: 6px auto;
+    border: none;
+    width: 20%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px black;
+    transition: 0.2s;
+  }
+
+.contactos  .newContainer button:hover{
+    background-color: #a9aaab54;
+    transform: scale(0.8);
+  }
+  @media screen and (max-width: 992px){
+    form{
+      margin-bottom: 0;
+    }
+    .container-thanks{
+      margin-top: 0;
+    }
+  }
