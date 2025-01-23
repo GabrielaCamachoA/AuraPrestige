@@ -6,3 +6,6 @@ body{
     margin: 0;
     font-family: "Poppins", serif;
 }
+body:has(.dark){
+    background-color: black;
+}

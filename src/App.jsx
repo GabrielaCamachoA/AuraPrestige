@@ -1,16 +1,16 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Inicio from './pages/Inicio'
 import Contactos from './pages/Contactos'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { context } from './context/modoOscuro'
+import { useContext } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const {oscuro, setOscuro} = useContext(context)
   return (
-    <>
+    <main className={oscuro ? "dark" : ""}>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -19,7 +19,7 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
-    </>
+    </main>
   )
 }
 

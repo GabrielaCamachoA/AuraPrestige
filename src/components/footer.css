@@ -27,3 +27,6 @@ footer{
 .infoAdicional p:hover, .contacto a:hover{
     color:#7f202a;
 }
+main.dark footer, .contacto a{
+    color: #fff;
+}

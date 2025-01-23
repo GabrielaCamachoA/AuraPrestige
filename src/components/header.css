@@ -22,6 +22,14 @@ header a{
 header a:hover{
     color: beige;
 }
+nav{
+    display: flex;
+    align-items: center;
+}
+button{
+    border: none;
+    background: none;
+}
 @media screen and (max-width: 500px){
     header .icon{
       display: none;
