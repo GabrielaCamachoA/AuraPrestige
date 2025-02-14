@@ -4,7 +4,7 @@ import Inicio from './pages/Inicio'
 import Contactos from './pages/Contactos'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { context } from './context/modoOscuro'
+import { context } from './context/useOscuro'
 import { useContext } from 'react'
 
 function App() {
